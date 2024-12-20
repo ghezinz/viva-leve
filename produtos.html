@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos</title>
+  <link rel="stylesheet" href="./css/produtos.css">
+  <link rel="stylesheet" href="./css/global.css">
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Produtos Disponíveis</h1>
+    <button onclick="voltarParaHome()" class="btn-voltar">Voltar para Home</button>
+  </header>
+  <main>
+    <div class="produtos-container">
+      <div class="produto">
+        <img src="img/image1.jpg" alt="Produto 1">
+        <h2>Whey Protein Blend</h2>
+        <p>é um suplemento proteico de alta qualidade, desenvolvido para auxiliar no ganho de massa muscular
+           e na recuperação pós-treino. </p>
+        <button onclick="redirecionarParaCadastro()">Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="img/image2.jpg" alt="Produto 2">
+        <h2>Psichotic Dragon</h2>
+        <p>é um suplemento formulado para aumentar a energia,
+           resistência e foco durante atividades físicas intensas.</p>
+        <button onclick="redirecionarParaCadastro()">Comprar</button>
+      </div>
+      <div class="produto">
+        <img src="img/image3.jpg" alt="Produto 3">
+        <h2>Protein Fusion Whey Isolate</h2>
+        <p>é um suplemento proteico de alta qualidade, 
+          formulado com matéria-prima importada e um blend 
+          exclusivo de seis fontes de proteínas de alto valor biológico</p>
+        <button onclick="redirecionarParaCadastro()">Comprar</button>
+      </div>
+    </div>
+  </main>
+  <script src="js/produtos.js"></script>
+</body>
+</html>

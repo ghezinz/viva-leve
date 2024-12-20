@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/global.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Viva Leve</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="treinos.html">Treinos</a></li>
+        <li><a href="dietas.html">Dietas</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h2 id="saudacao">Bem-vindo de volta! Insira suas credenciais para acessar sua conta.</h2>
+  <main id="login">
+    <h2>Login</h2>
+    <form action="dashboard.html" method="POST">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+      
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+      
+      <button type="submit" class="btn">Entrar</button>
+    </form>
+    
+    <div class="botao-voltar">
+      <a href="index.html" class="btn">Voltar para a Página Principal</a>
+    </div>
+  </main>
+</body>
+</html>
